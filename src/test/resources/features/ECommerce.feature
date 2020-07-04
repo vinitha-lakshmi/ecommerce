@@ -1,4 +1,4 @@
-Feature: Test suite - AC Smoke Tests 
+Feature: E-Commerce Sample Test
 
 @SHOPPING
 Scenario Outline: Launch Accountant Connect and verify the page is loaded successfully
