@@ -1,7 +1,7 @@
 Feature: E-Commerce Sample Test
 
 @SHOPPING
-Scenario Outline: Launch Accountant Connect and verify the page is loaded successfully
+Scenario Outline: Verify items can be added to shopping cart
 	Given page is opened successfully
 	When I search for "<ProductName>"
 	Then I select the product "<ItemName>"
@@ -15,7 +15,7 @@ Scenario Outline: Launch Accountant Connect and verify the page is loaded succes
 	 	|advanced night repair	|concentrated-recovery-powerfoil-mask	|2				|2			|
 	
 @SIGNIN
-Scenario Outline: Verify login is unsuccessful for invalid username and password
+Scenario Outline: Login Validation
 	Given page is opened successfully
 	When I sign in with "<UserName>" and "<Password>"
 	Then I verify sign in is unsuccessful "<ExpectedMessage>"
